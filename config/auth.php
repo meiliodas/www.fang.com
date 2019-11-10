@@ -66,8 +66,9 @@ return [
 
     'providers' => [
         'users' => [
+            //微型 ORM
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Models\Admin::class,
         ],
 
         // 'users' => [
